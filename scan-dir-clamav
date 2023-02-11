@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+clamscan "$1"
+
+echo "OK: ClamAV found no malware in $1"
